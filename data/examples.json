@@ -1,0 +1,11 @@
+[
+  {
+    "issue": "The application returns HTTP 503 errors under heavy traffic."
+  },
+  {
+    "issue": "Database queries become slow after the service runs for several hours."
+  },
+  {
+    "issue": "Users are intermittently logged out after deploying the latest release."
+  }
+]
