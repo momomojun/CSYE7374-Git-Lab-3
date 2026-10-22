@@ -8,8 +8,9 @@ def _validate_issue(issue: str) -> str:
 
 
 def prompt_v1(issue: str) -> str:
-    # TODO: STUDENT IMPLEMENT
-    pass
+    """Build a direct issue-analysis prompt."""
+    issue = _validate_issue(issue)
+    return f"Explain how to fix this software issue.\n\nIssue: {issue}"
 
 
 def prompt_v2(issue: str) -> str:
